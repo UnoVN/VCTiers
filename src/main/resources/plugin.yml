@@ -1,0 +1,14 @@
+name: TierPlugin
+version: 1.0
+main: com.example.tierplugin.TierPlugin
+api-version: 1.20
+depend: [LuckPerms]
+commands:
+  tier:
+    description: Mở menu chọn tier cho người chơi
+    permission: tier.use
+    usage: /tier [tên_player]
+permissions:
+  tier.use:
+    description: Quyền mở menu chọn tier
+    default: op
