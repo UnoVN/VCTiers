@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>TierPlugin</artifactId>
-    <version>1.0</version>
+    <artifactId>RoleManager</artifactId>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -23,15 +23,12 @@
     </repositories>
 
     <dependencies>
-        <!-- Paper API 1.20 -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- LuckPerms API -->
         <dependency>
             <groupId>net.luckperms</groupId>
             <artifactId>api</artifactId>
