@@ -1,14 +1,29 @@
-name: TierPlugin
-version: 1.0
-main: com.example.tierplugin.TierPlugin
+name: RoleManager
+version: 1.1
+main: com.example.rolemanager.RoleManager
 api-version: 1.20
 depend: [LuckPerms]
 commands:
   tier:
-    description: Mở menu chọn tier cho người chơi
-    permission: tier.use
-    usage: /tier [tên_player]
+    description: Open the Tier selection menu for a player.
+    permission: rolemanager.tier
+    usage: /tier [player]
+  rank:
+    description: Open the Rank selection menu for a player.
+    permission: rolemanager.rank
+    usage: /rank [player]
+  rolemanager:
+    description: Main plugin management command.
+    permission: rolemanager.admin
+    usage: /rolemanager reload
 permissions:
-  tier.use:
-    description: Quyền mở menu chọn tier
+  rolemanager.tier:
+    description: Allows opening the Tier menu.
     default: op
+  rolemanager.rank:
+    description: Allows opening the Rank menu.
+    default: op
+  rolemanager.admin:
+    description: Allows reloading the plugin configuration.
+    default: op
+    
