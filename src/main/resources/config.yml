@@ -1,0 +1,100 @@
+# Catppuccin Mocha Color Palette Configuration
+messages:
+  prefix: "&#cba6f7[RoleManager] &#cdd6f4"
+  no-permission: "&#f38ba8You lack permission to use this command."
+  player-only: "&#f38ba8This command can only be executed by in-game players."
+  player-not-found: "&#f38ba8Player &#fab387{player} &#f38ba8is not online."
+  tier-set: "&#a6e3a1Updated tier to &#fab387{role} &#a6e3a1for &#cdd6f4{player}."
+  tier-received: "&#a6e3a1Your tier has been set to &#fab387{role}&#a6e3a1."
+  rank-set: "&#a6e3a1Updated rank to &#89b4fa{role} &#a6e3a1for &#cdd6f4{player}."
+  rank-received: "&#a6e3a1Your rank has been set to &#89b4fa{role}&#a6e3a1."
+  reloaded: "&#a6e3a1Configuration reloaded successfully."
+  luckperms-error: "&#f38ba8Failed to communicate with LuckPerms API."
+
+# ================================
+# TIER MENU CONFIGURATION
+# ================================
+tier-menu:
+  title: "&#cba6f7Tier Selection &#585b70| &#bac2de{player}"
+  size: 27
+  head-slot: 4
+  head-name: "&#fab387{player}"
+  head-lore:
+    - "&#a6adc8Current Tier: &#f9e2af{current}"
+  items:
+    lt5:
+      group: "lt5"
+      slot: 10
+      material: "GRAY_WOOL"
+      name: "&#9399b2LT5"
+      lore:
+        - "&#a6adc8Click to assign &#9399b2LT5 &#a6adc8tier."
+    ht5:
+      group: "ht5"
+      slot: 11
+      material: "WHITE_WOOL"
+      name: "&#cdd6f4HT5"
+      lore:
+        - "&#a6adc8Click to assign &#cdd6f4HT5 &#a6adc8tier."
+    lt4:
+      group: "lt4"
+      slot: 12
+      material: "LIME_WOOL"
+      name: "&#a6e3a1LT4"
+      lore:
+        - "&#a6adc8Click to assign &#a6e3a1LT4 &#a6adc8tier."
+    ht4:
+      group: "ht4"
+      slot: 13
+      material: "GREEN_WOOL"
+      name: "&#94e2d5HT4"
+      lore:
+        - "&#a6adc8Click to assign &#94e2d5HT4 &#a6adc8tier."
+    lt3:
+      group: "lt3"
+      slot: 14
+      material: "LIGHT_BLUE_WOOL"
+      name: "&#89dcebLT3"
+      lore:
+        - "&#a6adc8Click to assign &#89dcebLT3 &#a6adc8tier."
+    ht3:
+      group: "ht3"
+      slot: 15
+      material: "BLUE_WOOL"
+      name: "&#89b4faHT3"
+      lore:
+        - "&#a6adc8Click to assign &#89b4faHT3 &#a6adc8tier."
+
+# ================================
+# RANK MENU CONFIGURATION
+# ================================
+rank-menu:
+  title: "&#89b4faRank Selection &#585b70| &#bac2de{player}"
+  size: 27
+  head-slot: 4
+  head-name: "&#fab387{player}"
+  head-lore:
+    - "&#a6adc8Current Rank: &#f9e2af{current}"
+  items:
+    member:
+      group: "member"
+      slot: 11
+      material: "IRON_SWORD"
+      name: "&#bac2deMember"
+      lore:
+        - "&#a6adc8Click to assign &#bac2deMember &#a6adc8rank."
+    media:
+      group: "media"
+      slot: 13
+      material: "AMETHYST_SHARD"
+      name: "&#f5c2e7Media"
+      lore:
+        - "&#a6adc8Click to assign &#f5c2e7Media &#a6adc8rank."
+    admin:
+      group: "admin"
+      slot: 15
+      material: "NETHERITE_SWORD"
+      name: "&#f38ba8Admin"
+      lore:
+        - "&#a6adc8Click to assign &#f38ba8Admin &#a6adc8rank."
+        
